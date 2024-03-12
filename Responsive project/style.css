@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Kumbh Sans", sans-serif;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    z-index: 999;
+    padding:11px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    margin-left: auto;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li {
+    position: relative;;
+}
+.navbar ul li a{
+    color: #333;
+    font-size: 20px 0;
+    font-weight: 500;
+  
+}
+.navbar ul li:hover > .icon-rotate{
+    transform: rotate(180deg);
+}
+.nav-link-child{
+    padding: 20px ;
+}
+
+    .nav-btn{
+    font-size: 30px;
+    display: none;
+    }
+.nav-link-child:hover{
+    background-color: #333;
+    color: white;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 35px;
+    line-height: 30px;
+    background-color: white;
+    width: 150px;
+    display: none;
+    z-index: 999;
+}
+.navbar ul li:hover > .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 8px 15px;
+   
+}
+.sub-menu li a{
+    padding: 0px;
+}
+
+.sub-menu-child{
+    left: 150px;
+    top: 0;
+}
+.sub-menu li:hover .sub-menu-child{
+    display: block;
+}
+.sub-menu li:hover i{
+    transform: rotate(270deg);
+}
+/* responsive design */
+@media only screen and (max-width: 400px) {
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        width: 100%; left: 0; right: 0;
+        height: 100vh;
+        background-color: white;
+    }
+    .navbar .nav-links{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-links{
+        width: 100%;
+    }
+    .nav-links li  {
+        width: 100%;
+        font-size: 17px;
+        margin: .5rem 0;
+    }
+    .nav-links li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-menu{
+        top: 50px;
+        width: 100%;
+    }
+    .sub-menu-child{
+        left: 0;
+    }
+    .sub-menu, .sub-menu-child{
+        background-color: lightyellow;
+    }
+  .nav-btn{
+    display: block;
+  }
+}
