@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #ff9470;
+  display: flex;
+  justify-content: center;
+}
+.counter-container {
+  height: 250px;
+  width: 355px;
+  background-color: #fbceb1;
+  transform: translate(0, 50%);
+}
+h1 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.counter-fit {
+  padding: 20px 25px;
+  text-align: center;
+}
+.btn {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+  color: white;
+  border: none;
+}
+.increment,
+.decrement {
+  font-size: 25px;
+  background-color: #ff5733;
+  box-shadow: 0 0 50px 3px #fa5f55;
+  padding: 0px 30px;
+}
+.reset {
+  background-color: transparent;
+  border: 2px solid #ff5733;
+  padding: 0px 20px;
+  font-size: 22px;
+}
+.reset i {
+  color: #ff5733;
+}
+input {
+  outline: 2px solid #ff5733;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0 0 50px 3px #fa5f55;
+  margin: 10px 0;
+}
+.input-display {
+  margin-top: 20px;
+}

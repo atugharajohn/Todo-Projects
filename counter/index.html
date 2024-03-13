@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <div class="counter-container">
+      <div class="counter-fit">
+        <h1 class="display">0</h1>
+        <button class="btn increment" onclick="increment()">+</button>
+        <button class="btn reset" onclick="reset()">
+          <i class="uil uil-redo"></i>
+        </button>
+        <button class="btn decrement" onclick="decrement()">-</button>
+        <div class="input-display">
+          <p>Enter the for increment/decrement :-</p>
+          <input type="number" id="inputVal" value="1" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
