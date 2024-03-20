@@ -8,4 +8,6 @@
 
 ### 3. [Responsive-navbar](https://rimanshupatel.github.io/50-javascript-project/Responsive-navbar/)
 
+### 3. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
+
 ### **Author - Rimanshu patel**
