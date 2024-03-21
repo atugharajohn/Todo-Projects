@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(/img/bg.jpg);
+  background-position: left;
+  background-size: cover;
+  height: 100vh;
+}
+.bmi-container {
+  width: 32rem;
+  background-color: #ffffff;
+  border: 1px solid black;
+  box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.25);
+  position: absolute;
+  top: 30%;
+}
+
+.container {
+  padding: 0 1rem;
+}
+.bmi-header {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-wrapper {
+  margin: 1.5rem 0;
+}
+.wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+input,
+select {
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  padding: 13px 20px;
+  margin: 0 10px;
+  border: 1px solid #e1e1e1;
+  outline: none;
+  color: #333;
+  /* -webkit-appearance: none;
+  appearance: none; */
+  transition: border-color 0.3s ease-in-out;
+  font-weight: 600;
+}
+select option {
+  padding: 13px 20px;
+}
+input:focus {
+  border: 1px solid black;
+}
+
+.submit {
+  font-size: 15px;
+  height: 3.5rem;
+  background-color: black;
+  color: white;
+  padding: 16px 60px;
+  cursor: pointer;
+}
+/* .submit:hover {
+  box-shadow: 6px 5px black;
+} */
+
+.result-wrapper h1 {
+  margin: 1rem;
+}
+
+.result {
+  display: none;
+}
+.result-box {
+  display: flex;
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1.5rem 0;
+  padding: 1rem 1rem;
+}
+
+.close {
+  margin-left: auto;
+}
+
+.active {
+  display: block;
+}
+
+/* responsive-design */
+@media only screen and (min-width: 450px) {
+  .bmi-header {
+    font-size: 1rem;
+  }
+  .bmi-container {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI CALCULATOR</title>
+  </head>
+  <body>
+    <div class="bmi-container">
+      <div class="container">
+        <div class="bmi-header"><h1>BMI CALCULATOR</h1></div>
+        <form action="#" id="form">
+          <div class="input-wrapper">
+            <div class="wrapper">
+              <input
+                type="number"
+                class="height"
+                min="100"
+                max="250"
+                placeholder="height / cm"
+                autocomplete="off"
+                required
+              />
+              <input
+                type="number"
+                class="weight"
+                min="20"
+                max="200"
+                placeholder="weight / kg"
+              />
+            </div>
+
+            <div class="wrapper">
+              <input
+                type="number"
+                class="age"
+                min="18"
+                max="65"
+                placeholder="age"
+                autocomplete="off"
+                required
+              />
+
+              <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="male">male</option>
+                <option value="male">prefer not to say</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="submit">Button</button>
+        </form>
+        <div class="result-wrapper">
+          <h1 style="text-align: center">
+            your BMI : <span class="totalVal"></span>
+          </h1>
+
+          <div class="result">
+            <div class="result-box">
+              <div class="icon"></div>
+              <p class="resultMsg"></p>
+              <div class="close">x</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
