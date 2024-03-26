@@ -10,4 +10,8 @@
 
 ### 3. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
 
+### 3. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
+
+### 4. [bmi-calculator](https://rimanshupatel.github.io/50-javascript-project/bmi-calculator/)
+
 ### **Author - Rimanshu patel**
