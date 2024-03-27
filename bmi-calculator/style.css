@@ -9,7 +9,7 @@
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url(/img/bg.jpg);
+    url(img/bg.jpg);
   background-position: left;
   background-size: cover;
   height: 100vh;
