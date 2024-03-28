@@ -8,10 +8,10 @@
 
 ### 3. [Responsive-navbar](https://rimanshupatel.github.io/50-javascript-project/Responsive-navbar/)
 
-### 3. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
+### 4. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
 
-### 3. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
+### 5. [temperature-converter](https://rimanshupatel.github.io/50-javascript-project/temperature-converter/)
 
-### 4. [bmi-calculator](https://rimanshupatel.github.io/50-javascript-project/bmi-calculator/)
+### 6. [bmi-calculator](https://rimanshupatel.github.io/50-javascript-project/bmi-calculator/)
 
 ### **Author - Rimanshu patel**
