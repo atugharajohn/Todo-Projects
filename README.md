@@ -1,4 +1,4 @@
-# 50-javascript-project
+# javascript-project
 
 ## HERE IS THE LIVE OUTPUT OF PROJECTS 👇👇
 
