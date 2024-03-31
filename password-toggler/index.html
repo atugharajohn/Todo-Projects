@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>password toggler</title>
+  </head>
+  <body>
+    <form action="./" id="form">
+      <div class="container">
+        <div class="wrapper">
+          <h1>create new password</h1>
+
+          <div class="new-password">
+            <h3>new password</h3>
+            <input
+              type="password"
+              maxlength="12"
+              placeholder="enter the password"
+              required
+              id="input"
+              autocomplete="off"
+            />
+            <div class="toggler-icon">
+              <i class="fa-regular fa-eye-slash" id="toggler"></i>
+            </div>
+          </div>
+          <button id="signUp" type="submit" disabled>sign up</button>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

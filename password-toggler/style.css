@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 15rem;
+  width: 22rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #3333;
+  margin: 6rem auto;
+}
+.wrapper {
+  padding: 15px;
+}
+.container h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 1rem;
+}
+.new-password {
+  position: relative;
+}
+.new-password input {
+  all: unset;
+  width: 18rem;
+  padding: 12px 15px;
+  font-size: 17px;
+  font-weight: 600;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+input::placeholder {
+  font-weight: 400;
+}
+.new-password h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  margin: 0.5rem 0;
+}
+
+.new-password input:focus {
+  border-color: #333;
+  transition: all 0.3s;
+}
+.toggler-icon i {
+  position: absolute;
+  right: 16px;
+  top: 46px;
+  cursor: pointer;
+  display: none;
+}
+#signUp {
+  width: 100%;
+  padding: 13px 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: not-allowed;
+  border-radius: 5px;
+  background-color: #5f8aff;
+}
