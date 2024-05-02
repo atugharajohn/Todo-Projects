@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>file uploader</title>
+  </head>
+  <body>
+    <div class="file_uploader">
+      <div>
+        <h1 class="file_uploader__heading">upload file</h1>
+      </div>
+      <form action="#">
+        <div class="file_uploader__main" id="yourBtn">
+          <input type="file" id="myFile" size="50" />
+          <img src="img/upload.png" alt="" class="file_uploader__img" />
+          <p>browse file to upload</p>
+          <span>max file size : 50mb</span>
+        </div>
+      </form>
+      <div class="file_uploader__wrapper none">
+        <div class="file_uploader__fileSection">
+          <div class="file_uploader__fileComponent"></div>
+          <img src="img/image.png" alt="" class="file_uploader_fileIcon" />
+          <div class="file_uploader__fileComponentWrapper">
+            <p class="file_uploader__fileName"></p>
+            <span class="file_uploader__fileSize"></span>
+            <button>delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
