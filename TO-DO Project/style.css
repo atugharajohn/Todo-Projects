@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+body {
+  background-image: Linear-Gradient(To Right, #c6e4fb, #d4a6ae);
+  height: 100vh;
+  width: 100%;
+}
+
+.todo-app {
+  width: 100%;
+  margin: 100px auto 20px;
+  background-color: #fff;
+  padding: 30px 20px 70px;
+  border-radius: 20px;
+  max-width: 390px;
+}
+.todo-app h2 {
+  margin-bottom: 1rem;
+}
+.todo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 20px #3333;
+}
+.todo-main input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px 30px;
+}
+.btn {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 30px;
+  border-radius: 30px;
+  background: #ff5945;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.main-todo-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.main-todo-div li {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.todoListBtn {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: transparent;
+}
+
+.main-todo-div i {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 7px 10px;
+}
