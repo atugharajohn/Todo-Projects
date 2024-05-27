@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>intractive rating</title>
+  </head>
+  <body>
+    <div class="main_Wrapper">
+      <div class="ratingComponent">
+        <div class="rating_component_wrapper">
+          <div class="rating_container">
+            <div class="logo">
+              <img src="/images/icon-star.svg" alt="" />
+            </div>
+            <h1>how did we do ?</h1>
+            <p class="ratingComponent__text">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+
+            <div class="star-rating">
+              <button class="stars"><i class="fa-solid fa-star"></i></button>
+              <button class="stars"><i class="fa-solid fa-star"></i></button>
+              <button class="stars"><i class="fa-solid fa-star"></i></button>
+              <button class="stars"><i class="fa-solid fa-star"></i></button>
+              <button class="stars"><i class="fa-solid fa-star"></i></button>
+            </div>
+            <div class="submit-btn">
+              <button class="submit">submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="thankYou_Container hide_section">
+          <div class="thankYouWrapper">
+            <div class="thankYouContainer__logo">
+              <img src="/images/illustration-thank-you.svg" alt="" />
+            </div>
+            <div class="thankYouContainer__result">
+              <p>you selected <span class="resultval">0</span> out of 5</p>
+            </div>
+            <h1 class="thankYouContainer_heading">thank you !</h1>
+            <p class="thankYouContainer__text">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="country-list"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
