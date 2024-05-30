@@ -22,4 +22,6 @@
 
 ### 10. [random-background](https://rimanshupatel.github.io/javascript-project/random-background/)
 
+### 11. [TO-DO-Project](https://rimanshupatel.github.io/javascript-project/TO-DO-Project/)
+
 ### **Author - Rimanshu patel**
