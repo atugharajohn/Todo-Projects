@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>image slider</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="slideshow-container">
+      <!-- image slider div -->
+      <div class="my-slides">
+        <img src="./img/1.jpg" class="slide" />
+        <img src="./img/2.jpg" class="slide" />
+        <img src="./img/3.jpg" class="slide" />
+        <img src="./img/4.jpg" class="slide" />
+      </div>
+      <div class="slider-btn">
+        <a class="btn left-btn" onclick="prev()">&#10094;</a>
+        <a class="btn right-btn" onclick="next()">&#10095;</a>
+      </div>
+      <!-- slider-button -->
+      <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
