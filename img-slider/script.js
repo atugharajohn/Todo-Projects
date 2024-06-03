@@ -28,11 +28,6 @@ function showSlide(index){
     })
     slides[slideIndex].classList.add('active');
 
-
-    // dotController.forEach(dotShow  => {
-    //     dotShow.classList.remove('dotbg');
-    // })
-    // dotController[slideIndex].classList.add('dotbg');
 }
 
 function prev(){
