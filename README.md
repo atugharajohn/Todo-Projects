@@ -24,4 +24,6 @@
 
 ### 11. [TO-DO-Project](https://rimanshupatel.github.io/javascript-project/TO-DO-Project/)
 
+### 12. [img-slider](https://rimanshupatel.github.io/javascript-project/img-slider/)
+
 ### **Author - Rimanshu patel**
