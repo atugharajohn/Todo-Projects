@@ -1,4 +1,4 @@
-# javascript-project
+# Todo Projects
 
 ## HERE IS THE LIVE OUTPUT OF PROJECTS 👇👇
 
